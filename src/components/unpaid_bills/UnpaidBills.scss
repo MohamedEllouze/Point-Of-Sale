@@ -1,0 +1,31 @@
+
+.unpaid-bills-list-page{
+    margin-top:75px;
+    .module{
+        .fa-file-invoice-dollar{
+            color: #8888888c;
+        }
+        margin-top: 75px;
+        margin-right: 100px;
+        color: #8888888c;
+        display: flex;
+        flex-direction: row-reverse;
+        p {
+            font-family: Cairo !important;
+            order: 2;
+            padding-right: 13px;
+            font-size: 22px;
+            padding-left: 13px;
+        }
+        margin-top: 75px;
+    }
+    .navbar-Unpaid-bills{
+
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .table-header{
+        margin-top: 10px;
+    }
+
+}

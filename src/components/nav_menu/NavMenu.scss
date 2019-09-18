@@ -1,0 +1,52 @@
+.nav-menu{
+    display: flex;
+    position : fixed;
+    justify-content: space-between;
+    align-items: center;
+    width : 100%;
+    padding : 0 13px 0 10px ;
+    border-bottom: 0px solid hsl(208, 56%, 45%);
+    background-color: #1293b8;
+    margin-top:-75px;
+    .nav-bar{
+        display: flex;
+
+    }
+    h1{
+        margin :15px 20px;
+        height: fit-content;
+        display: flex;
+
+        small{
+            color : white;
+        font-size: 20px;
+
+        }
+        span{
+            color : rgb(215,214,214)
+        }
+        
+    }
+    .path{
+        display : flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }
+    strong{
+        margin : 0 10px;
+        color: white;
+    }
+    
+
+}
+.inscription{
+    i{
+        color: white;
+        font-size: 20px;
+        margin: 3px 10px;
+    }
+}
+.col-sm-10{
+    padding-top:12px; 
+}
